@@ -29,9 +29,9 @@
   <div class="main">
     <div class="julis_side">
       <!-- frameBorder="0" -->
-       <iframe  src="/julisposts.php" ></iframe>
+       <iframe src="/julisposts.php" ></iframe>
       <div class="idios_side">
-       <iframe  src="/idiotposts.php" ></iframe>
+       <iframe src="/idiotposts.php" ></iframe>
     </div>
     </div>
   </div>
