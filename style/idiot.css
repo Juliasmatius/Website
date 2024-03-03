@@ -1,0 +1,101 @@
+
+body {
+    background-color: rgb(0, 27, 41);
+    color: rgb(255,255,255);
+    font-family: 'Roboto Mono', monospace;
+}
+
+.main_text {
+  border: 2px solid white;
+  padding: 5px;
+  width: fit-content; 
+}
+#tiny {
+  font-size: 1px;
+}
+
+#death {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#death:hover {
+  background-color: #006384;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(192,168,1);
+}
+
+a:hover {
+  color: rgb(140, 100, 1)
+}
+
+.centerfunny {
+  text-align: center;
+}
+.rightfunny {
+  text-align: right;
+}
+
+.counter_text {
+  display: none;
+}
+
+/* Stealing, stealing THEFT! :3 */
+.buttonings {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.buttonings:hover {
+  font-family: 'Roboto Mono', monospace;
+  background-color: #006384;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#twitter{
+   content:url("/icons/twitter.svg");
+}
+
+#twitter:hover {
+   content:url("/icons/twitter_better.svg");
+}
+
+#adolf {
+  display: none;
+}
