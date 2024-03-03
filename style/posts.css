@@ -63,7 +63,7 @@ body {
 }
 
 .idios_side {
-  align-content: left;
+  align-content: right;
   position: absolute;
   left: 50%;
   top: 10%;

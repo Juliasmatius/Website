@@ -31,8 +31,8 @@
       <!-- frameBorder="0" -->
        <iframe src="/julisposts.php" ></iframe>
     </div>
-      <div class="idios_side">
-       <iframe src="/idiotposts.php" ></iframe>
+    <div class="idios_side">
+      <iframe src="/idiotposts.php" ></iframe>
     </div>
   </div>
 </div>
