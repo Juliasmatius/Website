@@ -56,17 +56,17 @@ body {
 
 .julis_side {
   align-content: left;
-  position: relative;
+  position: absolute;
   left: 0%;
-  top: 0%;
+  top: 20%;
   width: 100%;
 }
 
 .idios_side {
-  align-content: right;
-  position: relative;
+  align-content: left;
+  position: absolute;
   left: 50%;
-  top: -50%;
+  top: 20%;
   width: 50%;
 
 }
