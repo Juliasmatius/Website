@@ -37,10 +37,10 @@ body {
 
 
 .main {
-    position: relative;
+    position: absolute;
     top: 100%; /* Places it right below the header */
     left: 0%; /* Adjusted to move it to the left */
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
