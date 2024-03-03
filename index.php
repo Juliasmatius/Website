@@ -3,7 +3,7 @@
 <head>
     <title>Juli's page</title>
     <meta content="Juli's page" property="og:title" />
-    <meta content="Some fur's page" property="og:description" />
+    <meta content="Some furry's page" property="og:description" />
     <meta content="#001B29" data-react-helmet="true" name="theme-color"/>
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
