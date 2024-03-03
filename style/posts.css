@@ -55,6 +55,7 @@ body {
 
 
 .julis_side {
+  align-content: left;
   position: relative;
   left: 0%;
   top: 0%;
@@ -62,6 +63,7 @@ body {
 }
 
 .idios_side {
+  align-content: right;
   position: relative;
   left: 50%;
   top: 0%;
@@ -97,6 +99,6 @@ body {
 }
 
 iframe {
-  width: 100%;
+  width: 50%;
   height: 100%;
 }
