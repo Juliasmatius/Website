@@ -66,7 +66,7 @@ body {
   align-content: right;
   position: relative;
   left: 50%;
-  top: 0%;
+  top: -50%;
   width: 50%;
 
 }
