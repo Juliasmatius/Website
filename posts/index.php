@@ -28,7 +28,7 @@
 
   <div class="main">
     <div class="julis_side">
-      frameBorder="0"
+      <!-- frameBorder="0" -->
        <iframe  src="/julisposts.php" ></iframe>
       <div class="idios_side">
        <iframe  src="/idiotposts.php" ></iframe>
