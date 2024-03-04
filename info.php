@@ -1,3 +1,3 @@
 <?php
 phpinfo();
-:p
+?> :3
