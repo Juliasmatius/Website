@@ -55,12 +55,11 @@ body {
 
 .fox_div{
     position: absolute;
-    top: 10vh;
+    top: 10%;
     left: 75%;
     width: 20%;
     top: 0%;
     height: 100vh; 
-    margin-top: -10px;
 }
 
 .main iframe {
@@ -81,6 +80,7 @@ body {
 .main_text {
   border: 2px solid white;
   padding: 5px;
+  max-width: 70%;
   width: fit-content; 
 }
 

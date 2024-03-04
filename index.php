@@ -30,7 +30,7 @@
     <div class="main_text">
       <p>Hello!</p>
       <p>I am Juli a Finnish furry from '09(thats <?php
-      function calculate_elapsed_years($start_date) {
+       function calculate_elapsed_years($start_date) {
           $difference = time() - strtotime($start_date);
           return floor($difference / (365 * 24 * 60 * 60));
       }
@@ -46,10 +46,11 @@
         <a target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img width=50px height=50px src="/icons/youtube.png"/></img></a>
         <a target="_blank" href="https://discord.com/users/1043510819859730533"><img width=50px height=50px src="/icons/discord.png"/></img></a>
       </div>
-      </div>
     <div class="fox_div">
       <img id=myImg src="https://i.pinimg.com/originals/f0/e8/b7/f0e8b7f3120f06619fa6a2750476d3d6.jpg" alt="Cute foxes :3">
-    </div>
+      <p>Images stolen from <a target="_blank" href="https://foxes.cat">foxes.cat</a></p>
+     </div>
+       </div>
     
   </div>
 </div>
