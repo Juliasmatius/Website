@@ -28,17 +28,16 @@
 
   <div class="main">
     <div class="julis_side">
-      <!-- frameBorder="0" -->
-       <iframe src="/julisposts.php" ></iframe>
+       <h1>Juli's posts</h1>
+       <iframe frameBorder="0" src="/julisposts.php" ></iframe>
     </div>
     <div class="idios_side">
-      <iframe src="/idiotposts.php" ></iframe>
+      <h1>Yon's posts</h1>
+      <iframe frameBorder="0" src="/idiotposts.php" ></iframe>
     </div>
   </div>
 </div>
 
-<h1>BTW EVERYONE THIS IS BROKEN</h1>
-<h1>Did you really feel the need to say that? Like c'mon</h1>
 <div class="footer">
   <p>&copy; <?php echo date("Y"); ?> Juli <a href="/images/footer.png">&</a> <a href="/yons_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
 </div>

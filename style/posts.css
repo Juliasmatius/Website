@@ -42,6 +42,7 @@ body {
     left: 0%; /* Adjusted to move it to the left */
     text-align: left;
     width: 100%;
+    height: 70vh;
 }
 
 
@@ -56,18 +57,22 @@ body {
 
 .julis_side {
   align-content: left;
+  text-align: center;
   position: absolute;
   left: 0%;
-  top: 10%;
-  width: 100%;
+  top: 0%;
+  width: 50%;
+  height: 100%;
 }
 
 .idios_side {
+  text-align: center;
   align-content: right;
   position: absolute;
   left: 50%;
-  top: 10%;
+  top: 0%;
   width: 50%;
+  height: 100%;
 
 }
 .button {
@@ -99,6 +104,6 @@ body {
 }
 
 iframe {
-  width: 50%;
+  width: 100%;
   height: 100%;
 }
