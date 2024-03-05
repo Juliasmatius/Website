@@ -1,4 +1,10 @@
- <audio id="doom" controls>
+
+<meta content="Juli's page" property="og:title" />
+<meta content="Juli's page. But DOOM ost" property="og:description" />
+<meta content="#43B581" data-react-helmet="true" name="theme-color"/>
+
+
+<audio id="doom" controls>
   <source src="/DOOM.mp3" type="audio/mpeg">
 Your browser does not support the audio element.
 </audio> 
