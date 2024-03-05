@@ -41,3 +41,7 @@ So, Sing along, it's such a silly song
 The cackling carousel, it spins and never stops
 The acrobat who's waiting at the top
 Should do a circus hop
+
+
+
+juli is gay
