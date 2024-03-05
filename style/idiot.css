@@ -74,6 +74,11 @@ a:hover {
   cursor: pointer;
 }
 
+#stealingTheft {
+  cursor: help;
+}
+
+
 .buttonings:hover {
   font-family: 'Roboto Mono', monospace;
   background-color: #006384;
