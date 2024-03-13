@@ -20,7 +20,7 @@
         <a href="/posts/">Posts</a> |
         <a href="/projects/">Projects</a> |
         <a href="/contacts/">Contact</a> |
-        <a href="/yons_crazybox/thesilly.html">idiots page :P</a>
+        <a href="/lexis_crazybox/thesilly.html">idiots page :P</a>
     </div>
     <br>
     <hr>
@@ -40,7 +40,7 @@
 </div>
 
 <div class="footer">
-  <p>&copy; <?php echo date("Y"); ?> Juli <a href="/images/footer.png">&</a> <a href="/yons_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
+  <p>&copy; <?php echo date("Y"); ?> Juli <a href="/images/footer.png">&</a> <a href="/lexis_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
 </div>
 </body>
 </html>
