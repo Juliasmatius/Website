@@ -8,7 +8,9 @@
     <meta content="#001B29" data-react-helmet="true" name="theme-color"/>
     <link rel="stylesheet" href="/style/index.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
-    
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 </head>
 <body>
 
@@ -44,8 +46,8 @@
         <a target="_blank" href="https://www.last.fm/user/Julimiro/listening-report/week"><img width=50px height=50px src="/icons/lastfm.svg"/></img></a>
         <a target="_blank" href="https://www.reddit.com/user/Julis_texsture_team/"><img width=50px height=50px src="/icons/reddit.svg"/></img></a>
         <a target="_blank" href="https://steamcommunity.com/id/julimiro/"><img width=50px height=50px src="/icons/steam.svg"/></img></a>
-        <a target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img width=50px height=50px src="/icons/youtube.png"/></img></a>
-        <a target="_blank" href="https://discord.com/users/1043510819859730533"><img width=50px height=50px src="/icons/discord.png"/></img></a>
+        <a target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img width=50px height=50px src="/icons/youtube.webp"/></img></a>
+        <a target="_blank" href="https://discord.com/users/1043510819859730533"><img width=50px height=50px src="/icons/discord.webp"/></img></a>
       </div>
     <div class="fox_div">
       <img id=myImg src="https://i.pinimg.com/originals/f0/e8/b7/f0e8b7f3120f06619fa6a2750476d3d6.jpg" alt="Cute foxes :3">
@@ -58,7 +60,7 @@
 
   
 <div class="footer">
-  <p>&copy; <?php echo date("Y"); ?> Juli <a href="/images/footer.png">&</a> <a href="/lexi_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
+  <p>&copy; <?php echo date("Y"); ?> Juli <a href="/images/footer.png">&</a> <a href="/lexis_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
 </div>
   <script>
   function change() {
