@@ -1,5 +1,5 @@
 let counter = 0;
-let counter2 = 0
+let counter2 = 0;
 let counter3 = 0;
 let counter4 = 0;
 
