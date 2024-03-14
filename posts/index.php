@@ -33,7 +33,7 @@
        <iframe frameBorder="0" src="/julisposts.php" ></iframe>
     </div>
     <div class="idios_side">
-      <h1>Yon's posts</h1>
+      <h1>Lexi's posts</h1>
       <iframe frameBorder="0" src="/idiotposts.php" ></iframe>
     </div>
   </div>
