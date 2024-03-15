@@ -6,7 +6,7 @@
     <meta content="Juli's page" property="og:title" />
     <meta content="Some fur's contacts" property="og:description" />
     <meta content="#43B581" data-react-helmet="true" name="theme-color"/>
-    <link rel="stylesheet" href="/style/posts.css">
+    <link rel="stylesheet" href="/style/pages.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
@@ -28,13 +28,16 @@
 
 
   <div class="main">
-    <div class="julis_side">
-       <h1>Juli's posts</h1>
-       <iframe frameBorder="0" src="/posts/julisposts.php" ></iframe>
+    Hello!<br>
+    This website is selfhosted by me, Juli.<br>
+    Our workflow is coding the site in replit, having that push to a git repo and a webhook from that to a python script which updated the live site.<br>
+<br>
+    Below is the servers neofetch and phpinfo<br>
+    <div class="php_infi">
+      <iframe width=500 height=300 src="/hosting/info.php"></iframe>
     </div>
-    <div class="idios_side">
-      <h1>Lexi's posts</h1>
-      <iframe frameBorder="0" src="/posts/idiotposts.php" ></iframe>
+    <div class="fastfetch">
+      <iframe width=500 height=300 src="/hosting/fastfetch.php"></iframe>
     </div>
   </div>
 </div>
