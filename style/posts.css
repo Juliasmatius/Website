@@ -1,17 +1,14 @@
 @import "/commons/style.css";
-
 /* .main is a part of /commons/style.css */
 /* for some reason, removing this breaks everything */
 .main {
-    position: absolute;
-    top: 100%;
-    left: 0%;
-    text-align: left;
-    width: 100%;
-    height: 70vh;
+  position: absolute;
+  top: 100%;
+  left: 0%;
+  text-align: left;
+  width: 100%;
+  height: 70vh;
 }
-
-
 .julis_side {
   align-content: left;
   text-align: center;
@@ -21,7 +18,6 @@
   width: 50%;
   height: 100%;
 }
-
 .idios_side {
   text-align: center;
   align-content: right;
@@ -30,11 +26,10 @@
   top: 0%;
   width: 50%;
   height: 100%;
-
 }
 .button {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #008CBA;
+  font-family: "Roboto Mono", monospace;
+  background-color: #008cba;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -45,9 +40,8 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
 .button:hover {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: #006384;
   border: none;
   color: white;
@@ -59,7 +53,6 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
 iframe {
   width: 100%;
   height: 100%;

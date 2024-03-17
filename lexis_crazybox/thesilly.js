@@ -5,9 +5,9 @@ let counter4 = 0;
 
 function eternalDamnation() {
 
-  document.getElementById("counter_text").style.display = "block"; 
+  document.getElementById("counter_text").style.display = "block";
 
-  
+
   const videoContainer = document.createElement("div");
   videoContainer.style.display = "inline-block"; // Set to inline-block
   document.body.appendChild(videoContainer);
@@ -32,79 +32,79 @@ function eternalDamnation() {
 }
 
 function eternalDamnation2() {
-    document.getElementById("counter_text").style.display = "block";
+  document.getElementById("counter_text").style.display = "block";
 
-    const videoContainer = document.createElement("div");
-    videoContainer.style.display = "inline-block";
-    document.body.appendChild(videoContainer);
+  const videoContainer = document.createElement("div");
+  videoContainer.style.display = "inline-block";
+  document.body.appendChild(videoContainer);
 
-    const video = document.createElement("video");
-    video.width = 560;
-    video.height = 315;
-    video.id = "sillyvideo2" + counter2; // Unique ID for each video
-    video.autoplay = true;
-    video.loop = true;
-    video.playbackRate = 1; // You can set different playback rate for the second video
-    videoContainer.appendChild(video);
+  const video = document.createElement("video");
+  video.width = 560;
+  video.height = 315;
+  video.id = "sillyvideo2" + counter2; // Unique ID for each video
+  video.autoplay = true;
+  video.loop = true;
+  video.playbackRate = 1; // You can set different playback rate for the second video
+  videoContainer.appendChild(video);
 
-    const source = document.createElement("source");
-    source.src = "/lexis_crazybox/garfield.mp4"; // Change the source path to your video
-    source.type = "video/mp4";
-    video.appendChild(source);
+  const source = document.createElement("source");
+  source.src = "/lexis_crazybox/garfield.mp4"; // Change the source path to your video
+  source.type = "video/mp4";
+  video.appendChild(source);
 
-    // Increment the counter and update the output
-    counter2++;
-    document.getElementById('output2').innerHTML = counter2;
+  // Increment the counter and update the output
+  counter2++;
+  document.getElementById('output2').innerHTML = counter2;
 }
 
 function eternalDamnation3() {
-    document.getElementById("counter_text").style.display = "block";
+  document.getElementById("counter_text").style.display = "block";
 
-    const videoContainer = document.createElement("div");
-    videoContainer.style.display = "inline-block";
-    document.body.appendChild(videoContainer);
+  const videoContainer = document.createElement("div");
+  videoContainer.style.display = "inline-block";
+  document.body.appendChild(videoContainer);
 
-    const video = document.createElement("video");
-    video.width = 560;
-    video.height = 315;
-    video.id = "sillyvideo3" + counter3; // Unique ID for each video
-    video.autoplay = true;
-    video.loop = true;
-    video.playbackRate = 0.15; // You can set different playback rate for the second video
-    videoContainer.appendChild(video);
+  const video = document.createElement("video");
+  video.width = 560;
+  video.height = 315;
+  video.id = "sillyvideo3" + counter3; // Unique ID for each video
+  video.autoplay = true;
+  video.loop = true;
+  video.playbackRate = 0.15; // You can set different playback rate for the second video
+  videoContainer.appendChild(video);
 
-    const source = document.createElement("source");
-    source.src = "/lexis_crazybox/meow_meow_augh.mp4"; // Change the source path to your video
-    source.type = "video/mp4";
-    video.appendChild(source);
+  const source = document.createElement("source");
+  source.src = "/lexis_crazybox/meow_meow_augh.mp4"; // Change the source path to your video
+  source.type = "video/mp4";
+  video.appendChild(source);
 
-    // Increment the counter and update the output
-    counter3++;
-    document.getElementById('output3').innerHTML = counter3;
+  // Increment the counter and update the output
+  counter3++;
+  document.getElementById('output3').innerHTML = counter3;
 }
 
 function eternalDamnation4() {
-    document.getElementById("counter_text").style.display = "block";
+  document.getElementById("counter_text").style.display = "block";
 
-    const videoContainer = document.createElement("div");
-    videoContainer.style.display = "inline-block";
-    document.body.appendChild(videoContainer);
+  const videoContainer = document.createElement("div");
+  videoContainer.style.display = "inline-block";
+  document.body.appendChild(videoContainer);
 
-    const video = document.createElement("video");
-    video.width = 560;
-    video.height = 315;
-    video.id = "sillyvideo4" + counter4; // Unique ID for each video
-    video.autoplay = true;
-    video.loop = true;
-    video.playbackRate = 3; // You can set different playback rate for the second video
-    videoContainer.appendChild(video);
+  const video = document.createElement("video");
+  video.width = 560;
+  video.height = 315;
+  video.id = "sillyvideo4" + counter4; // Unique ID for each video
+  video.autoplay = true;
+  video.loop = true;
+  video.playbackRate = 3; // You can set different playback rate for the second video
+  videoContainer.appendChild(video);
 
-    const source = document.createElement("source");
-    source.src = "/lexis_crazybox/markipler.mp4"; // Change the source path to your video
-    source.type = "video/mp4";
-    video.appendChild(source);
+  const source = document.createElement("source");
+  source.src = "/lexis_crazybox/markipler.mp4"; // Change the source path to your video
+  source.type = "video/mp4";
+  video.appendChild(source);
 
-    // Increment the counter and update the output
-    counter4++;
-    document.getElementById('output4').innerHTML = counter4;
+  // Increment the counter and update the output
+  counter4++;
+  document.getElementById('output4').innerHTML = counter4;
 }

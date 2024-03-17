@@ -1,17 +1,14 @@
 @import "/commons/style.css";
-
-
 .main_text {
   border: 2px solid white;
   padding: 5px;
-  width: fit-content; 
+  width: fit-content;
 }
 #tiny {
   font-size: 1px;
 }
-
 #death {
-  background-color: #008CBA;
+  background-color: #008cba;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -22,7 +19,6 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
 #death:hover {
   background-color: #006384;
   border: none;
@@ -35,30 +31,25 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-
 a {
-  color: rgb(192,168,1);
+  color: rgb(192, 168, 1);
 }
-
 a:hover {
-  color: rgb(140, 100, 1)
+  color: rgb(140, 100, 1);
 }
-
 .centerfunny {
   text-align: center;
 }
 .rightfunny {
   text-align: right;
 }
-
 .counter_text {
   display: none;
 }
-
 /* Stealing, stealing THEFT! :3 */
 .buttonings {
-  font-family: 'Roboto Mono', monospace;
-  background-color: #008CBA;
+  font-family: "Roboto Mono", monospace;
+  background-color: #008cba;
   border: none;
   color: white;
   padding: 15px 32px;
@@ -69,14 +60,11 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-
 #stealingTheft {
   cursor: help;
 }
-
-
 .buttonings:hover {
-  font-family: 'Roboto Mono', monospace;
+  font-family: "Roboto Mono", monospace;
   background-color: #006384;
   border: none;
   color: white;
@@ -88,7 +76,6 @@ a:hover {
   margin: 4px 2px;
   cursor: pointer;
 }
-
 #adolf {
   display: none;
 }

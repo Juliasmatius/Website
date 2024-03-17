@@ -1,14 +1,15 @@
-<?php include "commons/header.php"?>
+<?php include "commons/header.php"; ?>
   <link rel="stylesheet" href="/style/index.css">
   <div class="main">
     <div class="main_text">
       <p>Hello!</p>
       <p>I am Juli a Finnish furry from '09(thats <?php
-       function calculate_elapsed_years($start_date) {
+      function calculate_elapsed_years($start_date)
+      {
           $difference = time() - strtotime($start_date);
           return floor($difference / (365 * 24 * 60 * 60));
       }
-      echo calculate_elapsed_years('2009-08-29');
+      echo calculate_elapsed_years("2009-08-29");
       ?> years old). I go by Juli or Julimiro, my preferred pronouns are he/him but they/them is also fine.</p></p><br>
       <p>I have a few coding projects which are on my github and replit. I am also working on a game, for more info visit <a href="/projects/">projects</a>.</p><br>
       <p>My socials can be found below</p>
@@ -25,11 +26,11 @@
       <p>Images stolen from <a target="_blank" href="https://foxes.cat">foxes.cat</a></p>
      </div>
        </div>
-    
+
   </div>
 </div>
 
-  
+
 
   <script>
   function change() {
@@ -38,4 +39,4 @@
 </script>
 <body onload="change()"></body>
 
-<?php include "commons/footer.php"?>
+<?php include "commons/footer.php"; ?>

@@ -1,4 +1,4 @@
-<?php include "../commons/header.php"?>
+<?php include "../commons/header.php"; ?>
 <link rel="stylesheet" href="/style/pages.css">
 
   <div class="main">
@@ -9,4 +9,4 @@
 </div>
 
 
-<?php include "../commons/footer.php"?>
+<?php include "../commons/footer.php"; ?>
