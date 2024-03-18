@@ -67,10 +67,12 @@ body {
 #twitter:hover {
   content: url("/icons/twitter_better.svg");
 }
-.footer {
+.footer{
+  display: flex;
   position: absolute;
-  bottom: 0px;
   left: 50%;
+  top: 100%;
+  margin-top: 200px;
   transform: translateX(-50%);
   text-align: center;
 }
