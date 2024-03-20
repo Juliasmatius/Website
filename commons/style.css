@@ -112,3 +112,5 @@ body {
 .footer_images img {
   margin: 0 5px
 }
+
+#loadOverlay{display: none;}
