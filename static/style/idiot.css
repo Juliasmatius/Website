@@ -33,6 +33,11 @@
 }
 a {
   color: rgb(192, 168, 1,0);
+
+}
+#donation{
+  color: rgb(153, 26, 136);
+  
 }
 a:hover {
   color: rgb(140, 100, 1,0);
