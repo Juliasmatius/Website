@@ -15,6 +15,11 @@
       <a href="https://ubuntu.com/"><img src="/buttons/ubuntu.gif"></a>
   </div>
 </div>
+<style>
+  #adolf {
+    display: none;
+  }
 
+</style>
 </body>
 </html>
