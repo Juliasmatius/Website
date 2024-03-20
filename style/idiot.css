@@ -32,10 +32,10 @@
   cursor: pointer;
 }
 a {
-  color: rgb(192, 168, 1);
+  color: rgb(192, 168, 1,0);
 }
 a:hover {
-  color: rgb(140, 100, 1);
+  color: rgb(140, 100, 1,0);
 }
 .centerfunny {
   text-align: center;
