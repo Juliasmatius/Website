@@ -115,3 +115,10 @@ window.addEventListener('load', function() {
     window.location.href = "/yons_crazybox/insanity.mp4";;
   });
 })
+
+window.addEventListener('load', function() {
+  const imgage = document.getElementById("stealingTheft2");
+  imgage.addEventListener("click", function() {
+    window.location.href = "/yons_crazybox/insanity.mp4";;
+  });
+})
