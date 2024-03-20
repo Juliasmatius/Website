@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="/style/pages.css">
+<link rel="stylesheet" href="/static/style/pages.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
 It's a comical yet devastating universe
 But it's still the kind of universe that I deserve

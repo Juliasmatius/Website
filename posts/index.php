@@ -1,5 +1,5 @@
-<?php include "../commons/header.php"; ?>
-<link rel="stylesheet" href="/style/posts.css">
+<?php include "../static/commons/header.php"; ?>
+<link rel="stylesheet" href="/static/style/posts.css">
 
   <div class="main">
     <div class="julis_side">
@@ -13,4 +13,4 @@
   </div>
 </div>
 
-<?php include "../commons/footer.php"; ?>
+<?php include "../static/commons/footer.php"; ?>

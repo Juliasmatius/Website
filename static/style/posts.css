@@ -1,4 +1,4 @@
-@import "/commons/style.css";
+@import "/static/commons/style.css";
 /* .main is a part of /commons/style.css */
 /* for some reason, removing this breaks everything */
 .main {
