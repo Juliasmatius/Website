@@ -11,7 +11,6 @@
 </head>
 <body>
 
-  <div id="loadOverlay" style="background-color:#001B29; position:absolute; top:0px; left:0px; width:100%; height:100%; z-index:2000;"></div>
 
 <div class="container">
   <div class="header">
