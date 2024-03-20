@@ -22,7 +22,7 @@ function eternalDamnation() {
   videoContainer.appendChild(video);
 
   const source = document.createElement("source");
-  source.src = "/lexis_crazybox/thesilly.mp4";
+  source.src = "/yons_crazybox/thesilly.mp4";
   source.type = "video/mp4";
   video.appendChild(source);
   // Eternal damnation leaderboards
@@ -48,7 +48,7 @@ function eternalDamnation2() {
   videoContainer.appendChild(video);
 
   const source = document.createElement("source");
-  source.src = "/lexis_crazybox/garfield.mp4"; // Change the source path to your video
+  source.src = "/yons_crazybox/garfield.mp4"; // Change the source path to your video
   source.type = "video/mp4";
   video.appendChild(source);
 
@@ -74,7 +74,7 @@ function eternalDamnation3() {
   videoContainer.appendChild(video);
 
   const source = document.createElement("source");
-  source.src = "/lexis_crazybox/meow_meow_augh.mp4"; // Change the source path to your video
+  source.src = "/yons_crazybox/meow_meow_augh.mp4"; // Change the source path to your video
   source.type = "video/mp4";
   video.appendChild(source);
 
@@ -100,7 +100,7 @@ function eternalDamnation4() {
   videoContainer.appendChild(video);
 
   const source = document.createElement("source");
-  source.src = "/lexis_crazybox/markipler.mp4"; // Change the source path to your video
+  source.src = "/yons_crazybox/markipler.mp4"; // Change the source path to your video
   source.type = "video/mp4";
   video.appendChild(source);
 
@@ -108,3 +108,10 @@ function eternalDamnation4() {
   counter4++;
   document.getElementById('output4').innerHTML = counter4;
 }
+
+window.addEventListener('load', function() {
+  const imgage = document.getElementById("stealingTheft");
+  imgage.addEventListener("click", function() {
+    window.location.href = "/yons_crazybox/insanity.mp4";;
+  });
+})
