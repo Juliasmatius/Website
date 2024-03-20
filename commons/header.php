@@ -20,7 +20,7 @@
         <a href="/posts/">Posts</a> |
         <a href="/projects/">Projects</a> |
         <a href="/contacts/">Contact</a> |
-        <a href="/lexis_crazybox/thesilly.html">idiots page :P</a>
+        <a href="/yons_crazybox/thesilly.html">idiots page :P</a>
     </div>
     <br>
     <hr>
