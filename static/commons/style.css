@@ -69,11 +69,11 @@ body {
 }
 
 #twitter {
-  content: url(/icons/twitter.svg)
+  content: url(/static/icons/twitter.svg)
 }
 
 #twitter:hover {
-  content: url(/icons/twitter_better.svg)
+  content: url(/static/icons/twitter_better.svg)
 }
 
 .footer {
