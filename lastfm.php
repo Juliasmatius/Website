@@ -23,7 +23,7 @@ function fetchRecentTrack() {
       const trackInfoElement = document.getElementById('trackinfo');
 
       if (nowPlaying) {
-        currListenElement.innerHTML = `Currently listening to<br><u><a id="trackinfo" href="${url}"><b>${artist}</b> - ${track}</a></u>`;
+        currListenElement.innerHTML = `Currently listening to<br><a id="trackinfo" href="${url}"><b>${artist}</b> - ${track}</a>`;
       } else {
         currListenElement.innerHTML = '<br>';
         trackInfoElement.href = '';
