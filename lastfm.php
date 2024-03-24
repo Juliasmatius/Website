@@ -1,11 +1,16 @@
 <p id='currlisten'><br>
 <a id='trackinfo' href=></a>
 <script>
+  
+$apiKey = "f27b0fc77baba3236a3876f57446d679";
+$apiRoot = "http://ws.audioscrobbler.com/2.0/";
+$username = "Julimiro";
 
-
+// URL to make the request to
+$url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Julimiro&format=json&limit=1&api_key=f27b0fc77baba3236a3876f57446d679";
 function fetchRecentTrack() {
   console.log("Update")
-  fetch("/api_proxy.php")
+  fetch($url)
     .then(response => response.json())
     .then(data => {
       const recentTrack = data.recenttracks.track[0];
