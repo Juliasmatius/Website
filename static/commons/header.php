@@ -22,8 +22,7 @@
         <a href="/contacts/">Contact</a> |
         <a href="/yons_crazybox/thesilly.html">idiots page :P</a>
     </div>
-    <!-- <<?php include $_SERVER['DOCUMENT_ROOT'] . "/lastfm.php";
-    ?> -->
+    <?php include $_SERVER['DOCUMENT_ROOT'] . "/lastfm.php";?>
 
     <br>
     <hr>
