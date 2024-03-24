@@ -1,5 +1,10 @@
 <?php
+$apiKey = "f27b0fc77baba3236a3876f57446d679";
+$apiRoot = "http://ws.audioscrobbler.com/2.0/";
+$username = "Julimiro";
 
+// URL to make the request to
+$url = "{$apiRoot}?method=user.getrecenttracks&user={$username}&format=json&limit=1&api_key={$apiKey}";
 
 // Make the request and get the response
 $response = file_get_contents($url);
