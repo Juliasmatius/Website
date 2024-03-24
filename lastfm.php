@@ -7,7 +7,7 @@ $apiRoot = "http://ws.audioscrobbler.com/2.0/";
 $username = "Julimiro";
 
 // URL to make the request to
-$url = "http://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Julimiro&format=json&limit=1&api_key=f27b0fc77baba3236a3876f57446d679";
+$url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Julimiro&format=json&limit=1&api_key=f27b0fc77baba3236a3876f57446d679";
 function fetchRecentTrack() {
   console.log("Update")
   fetch($url)
