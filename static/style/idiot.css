@@ -31,16 +31,18 @@
   margin: 4px 2px;
   cursor: pointer;
 }
-a {
+.socials a {
   color: rgb(192, 168, 1,0);
 
 }
+
+.socials a:hover {
+  color: rgb(140, 100, 1,0);
+}
+
 #donation{
   color: rgb(153, 26, 136);
-  
-}
-a:hover {
-  color: rgb(140, 100, 1,0);
+
 }
 .centerfunny {
   text-align: center;
@@ -86,4 +88,8 @@ a:hover {
 }
 #adolf {
   display: none;
+}
+
+#trackinfo {
+  color: rgb(255, 255, 255);
 }
