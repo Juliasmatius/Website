@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <!-- Cloudflare Web Analytics --><script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3951490bfd414fa9aa21aa112269bd5c"}'></script><!-- End Cloudflare Web Analytics -->
     <title>Juli's page</title>
     <meta content="Juli's page" property="og:title" />
     <meta content="Some furry's page" property="og:description" />
