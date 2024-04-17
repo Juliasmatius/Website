@@ -7,6 +7,9 @@
     <meta content="#001B29" data-react-helmet="true" name="theme-color"/>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="twitter:site" content="https://julimiro.eu" />
+  <meta name="twitter:title" content="Juli's website" />
+  <meta name="twitter:description" content="A silly fur's page" />
 </head>
 <body>
 
