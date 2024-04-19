@@ -2,7 +2,7 @@
   <link rel="stylesheet" href="/static/style/index.css">
   <div class="main">
     <div class="main_text">
-      <p>Hello!</p>
+      <h2>Hello!</h2>
       <p>I am Juli a Finnish furry from '09(thats <?php
       function calculate_elapsed_years($start_date)
       {
