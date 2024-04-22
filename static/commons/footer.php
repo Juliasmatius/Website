@@ -5,7 +5,9 @@
   <div class="footer_text"
     <p>&copy; <?php echo date(
       "Y"
-  ); ?> Juli <a href="/static/images/footer.png">&</a> <a href="/yons_crazybox/thesilly.html">idiot</a>. All rights reserved.</p>
+  ); ?> Juli <a href="/static/images/footer.png">&</a> <a href="/yons_crazybox/thesilly.html">idiot</a>. All rights reserved.</p><br>
+    <p>Utilizes <a href="https://github.com/adryd325/oneko.js">oneko.js</a></p>
+                                                                            
 </div>
     <div class="footer_images">
       <a target="_blank"href="https://www.codecademy.com/learn/learn-css"><img src="/static/buttons/csshard.gif"></a>
