@@ -118,3 +118,20 @@ body {
 #adolf {
   display: none;
 }
+
+.popup {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: rgb(0, 64, 98);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+  display:none;
+}
+.popup-close {
+  float: right;
+  cursor: pointer;
+  font-weight: bold;
+}

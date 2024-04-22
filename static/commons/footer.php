@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="/static/commons/style.css">
+
 <img id=adolf src="/static/icons/twitter_better.svg">
 <div class="footer">
   <div class="footer_text"
