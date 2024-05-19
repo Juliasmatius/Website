@@ -80,7 +80,7 @@ body {
   display: flex;
   position: absolute;
   left: 50%;
-  top: 100%;
+  bottom: 0;
   margin-top: 200px;
   transform: translateX(-50%);
   text-align: center;

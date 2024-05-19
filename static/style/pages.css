@@ -1,13 +1,8 @@
 @import "/static/commons/style.css";
 .page_text_left {
   position: relative;
-  left: 0%;
+  left: 50%;
   top: 0%;
   width: 80%;
-}
-.page_right {
-  position: relative;
-  left: 80%;
-  top: -10px;
-  width: 10%;
+  transform: translateX(-50%)
 }

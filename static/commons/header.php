@@ -10,6 +10,14 @@
     <meta name="twitter:site" content="https://julimiro.eu" />
     <meta name="twitter:title" content="Juli's website" />
     <meta name="twitter:description" content="A silly fur's page" />
+    <link rel="prefetch" href="/contacts" />
+    <link rel="prefetch" href="/projects" />
+    <link rel="prefetch" href="/posts" />
+    <link rel="prefetch" href="/yons_crazybox"/>
+    <link rel="prefetch" href="/" />
+
+
+
 </head>
 <body>
 
