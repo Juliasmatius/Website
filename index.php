@@ -21,8 +21,8 @@
         <a alt="Last.fm" target="_blank" href="https://www.last.fm/user/Julimiro/listening-report/week"><img alt="Last.fm" title="Last.fm" width=50px height=50px src="/static/icons/lastfm.svg"/></img></a>
         <a alt="Reddit" target="_blank" href="https://www.reddit.com/user/Julis_texsture_team/"><img alt="Reddit" title="Reddit" width=50px height=50px src="/static/icons/reddit.svg"/></img></a>
         <a alt="Steam" target="_blank" href="https://steamcommunity.com/id/julimiro/"><img alt="Steam" title="Steam" width=50px height=50px src="/static/icons/steam.svg"/></img></a>
-        <a alt="Youtube" target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img alt="Youtube" title="Youtube" width=50px height=50px src="/static/icons/youtube.webp"/></img></a>
-        <a alt="Discord" target="_blank" href="https://discord.com/users/1043510819859730533"><img alt="Discord" title="Discord" width=50px height=50px src="/static/icons/discord.webp"/></img></a>
+        <a alt="Youtube" target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img alt="Youtube" title="Youtube" width=50px height=50px src="/static/icons/youtube.svg"/></img></a>
+        <a alt="Discord" target="_blank" href="https://discord.com/users/1043510819859730533"><img alt="Discord" title="Discord" width=50px height=50px src="/static/icons/discord.svg"/></img></a>
       </div>
     <div class="fox_div">
       <img id=myImg alt="Cute foxes :3">

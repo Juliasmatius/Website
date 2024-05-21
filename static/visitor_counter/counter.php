@@ -12,7 +12,7 @@ if (str_contains(file_get_contents("log.log"), $ip."\n")) {
   echo "not found"; 
   file_put_contents('logs.log', $ip."\n".PHP_EOL , FILE_APPEND | LOCK_EX);
 }
-?>
+?>l
 
 <link rel="stylesheet" href="/static/commons/style.css">
 <div class="popup" id="popup">

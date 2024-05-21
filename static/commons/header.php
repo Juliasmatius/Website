@@ -15,9 +15,6 @@
     <link rel="prefetch" href="/posts" />
     <link rel="prefetch" href="/yons_crazybox"/>
     <link rel="prefetch" href="/" />
-
-
-
 </head>
 <body>
 

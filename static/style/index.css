@@ -34,3 +34,7 @@
   height: auto;
   /* This ensures the image scales with its parent container */
 }
+
+.socials {
+  color: rgb(255,255,255);
+}
