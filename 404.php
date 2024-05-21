@@ -1,25 +1,22 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <!-- Cloudflare Web Analytics :3 -->
-    <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "3951490bfd414fa9aa21aa112269bd5c"}'></script>
-    <!-- End Cloudflare Web Analytics -->
-    <title>404 - Juli's page</title>
-    <meta content="Juli's page" property="og:title" />
-    <meta content="Page not found" property="og:description" />
-    <meta content="#43B581" data-react-helmet="true" name="theme-color" />
-    <link rel="stylesheet" href="/static/style/index.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-  </head>
-  <body>
+<title>404 - Juli's page</title>
+<?php
+include "static/commons/header.php";
+$log = "$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]" . "  :  " . time() . "\n";
+file_put_contents("404.log", $log, FILE_APPEND);
+
+?>
+  <link rel="stylesheet" href="/static/style/index.css">
+
       <div class="main">
         <h1>That page doesn't exist&#x1F63F;</h1>
         <br>
         <h2>404 :3</h2>
-        <h2>Also here random text from the idiot: PORNOGRAPHY!!!!! -Yon</h2>
         <br>
         <a href="/">Navigate to back to the homepage</a>
+        <br>
+        <u><h3>This has been logged. Your IP has not been logged.</h3></u>
+        <h3>The following text was logged:</h3>
+        <code><?php echo $log;?></code>
         <br>
         <br>
         <img src="https://http.cat/images/404.jpg"></img>

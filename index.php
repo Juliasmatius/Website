@@ -17,7 +17,7 @@
       <p>My socials can be found below</p>
       <div class="socials">
         <a alt="twitter" target="_blank" href="https://twitter.com/julithefurry"><img alt="twitter" title="Twitter" id="twitter" width=50px height=50px src="/static/icons/twitter.svg"/></img></a>
-        <a alt="mastadon" target="_blank" href="https://catcatnya.com/@juli"><img alt="mastadon" title="Mastadon" width=50px height=50px src="/static/icons/mastodon.svg"/></img></a>
+        <a alt="mastadon" target="_blank" href="https://eepykitty.lol/@juli"><img alt="mastodon" title="Mastodon" width=50px height=50px src="/static/icons/mastodon.svg"/></img></a>
         <a alt="Last.fm" target="_blank" href="https://www.last.fm/user/Julimiro/listening-report/week"><img alt="Last.fm" title="Last.fm" width=50px height=50px src="/static/icons/lastfm.svg"/></img></a>
         <a alt="Reddit" target="_blank" href="https://www.reddit.com/user/Julis_texsture_team/"><img alt="Reddit" title="Reddit" width=50px height=50px src="/static/icons/reddit.svg"/></img></a>
         <a alt="Steam" target="_blank" href="https://steamcommunity.com/id/julimiro/"><img alt="Steam" title="Steam" width=50px height=50px src="/static/icons/steam.svg"/></img></a>
