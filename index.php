@@ -3,6 +3,10 @@
   <img id=adolf src="/static/icons/twitter_better.svg">
   <link rel="stylesheet" href="/static/style/index.css">
   <div class="main">
+    <div class="fox_div">
+      <img id=myImg alt="Cute foxes :3">
+      <p>Images stolen from <a target="_blank" href="https://foxes.cat">foxes.cat</a></p>
+     </div>
     <div class="main_text">
       <h2>Hello!</h2>
       <p>I am Juli a Finnish furry from '09(thats <?php
@@ -24,11 +28,9 @@
         <a alt="Youtube" target="_blank" href="https://www.youtube.com/@JuliTheFurry"><img alt="Youtube" title="Youtube" width=50px height=50px src="/static/icons/youtube.svg"/></img></a>
         <a alt="Discord" target="_blank" href="https://discord.com/users/1043510819859730533"><img alt="Discord" title="Discord" width=50px height=50px src="/static/icons/discord.svg"/></img></a>
       </div>
-    <div class="fox_div">
-      <img id=myImg alt="Cute foxes :3">
-      <p>Images stolen from <a target="_blank" href="https://foxes.cat">foxes.cat</a></p>
-     </div>
-       </div>
+    
+       
+      </div>
 
   </div>
 </div>
