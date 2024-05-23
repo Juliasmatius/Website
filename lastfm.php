@@ -1,13 +1,8 @@
 <p id='currlisten'><br>
 <a id='trackinfo' href=></a>
 <script>
-  
-$apiKey = "f27b0fc77baba3236a3876f57446d679";
-$apiRoot = "http://ws.audioscrobbler.com/2.0/";
-$username = "Julimiro";
 
-// URL to make the request to
-$url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=Julimiro&format=json&limit=1&api_key=f27b0fc77baba3236a3876f57446d679";
+$url = "/lastfmproxy.php"
 function fetchRecentTrack() {
   console.log("Update")
   fetch($url)
@@ -32,10 +27,7 @@ function fetchRecentTrack() {
     .catch(error => console.error('Error fetching recent tracks:', error));
 }
 
-// Call fetchRecentTrack initially
 fetchRecentTrack();
-
-// Refresh every 5 seconds
 setInterval(fetchRecentTrack, 15000);
 
 </script>
