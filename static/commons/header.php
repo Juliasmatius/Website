@@ -1,3 +1,4 @@
+<?php include $_SERVER["DOCUMENT_ROOT"] . "/static/visitor_counter/counter.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -10,11 +11,6 @@
     <meta name="twitter:site" content="https://julimiro.eu" />
     <meta name="twitter:title" content="Juli's website" />
     <meta name="twitter:description" content="A silly fur's page" />
-    <link rel="prefetch" href="/contacts" />
-    <link rel="prefetch" href="/projects" />
-    <link rel="prefetch" href="/posts" />
-    <link rel="prefetch" href="/yons_crazybox"/>
-    <link rel="prefetch" href="/" />
 </head>
 <body>
 
@@ -29,7 +25,7 @@
         <a href="/contacts/">Contact</a> |
         <a href="/yons_crazybox/thesilly.html">idiots page :P</a>
     </div>
-
+    <?php echo "$count_string";?>
     <script src="/static/commons/oneko.js"></script>
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/lastfm.php";?>
 
