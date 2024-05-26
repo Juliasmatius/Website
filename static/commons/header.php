@@ -11,7 +11,7 @@
     <meta name="twitter:site" content="https://julimiro.eu" />
     <meta name="twitter:title" content="Juli's website" />
     <meta name="twitter:description" content="A silly fur's page" />
-    <link rel="stylesheet" type="text/css" href="/static/comm">
+    <link rel="stylesheet" type="text/css" href="/static/commons/junecss.php">
 </head>
 <body>
 
