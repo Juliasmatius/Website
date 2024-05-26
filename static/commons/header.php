@@ -11,6 +11,7 @@
     <meta name="twitter:site" content="https://julimiro.eu" />
     <meta name="twitter:title" content="Juli's website" />
     <meta name="twitter:description" content="A silly fur's page" />
+    
 </head>
 <body>
 
