@@ -1,1 +1,1 @@
-<meta http-equiv="refresh" content="0; URL=/lexis_crazybox/thesilly.html"" />
+<meta http-equiv="refresh" content="0; URL=thesilly.html"" />

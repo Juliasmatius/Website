@@ -165,12 +165,7 @@ window.addEventListener('load', function() {
 })
 
 
-$apiKey = "f27b0fc77baba3236a3876f57446d679";
-$apiRoot = "http://ws.audioscrobbler.com/2.0/";
-$username = "fake_yon";
-
-// URL to make the request to
-$url = "https://ws.audioscrobbler.com/2.0/?method=user.getrecenttracks&user=fake_yon&format=json&limit=1&api_key=f27b0fc77baba3236a3876f57446d679";
+$url = "/yons_crazybox/fmproxy.php";
 function fetchRecentTrack() {
   console.log("Update")
   fetch($url)
