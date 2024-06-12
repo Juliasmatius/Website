@@ -16,7 +16,7 @@
           return floor($difference / (365 * 24 * 60 * 60));
       }
       echo calculate_elapsed_years("2009-08-29");
-      ?> years old). I go by Juli or Julimiro, my preferred pronouns are he/him but any are fine tbh.</p></p><br>
+      ?> years old). I go by Juli or Julimiro, any pronouns are fine but he/him is preferred.</p></p><br>
       <p>I have a few coding projects which are on my github and replit. I am also working on a game, for more info visit <a href="/projects/">projects</a>.</p><br>
       <p>My socials can be found below</p>
       <div class="socials">
