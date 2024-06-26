@@ -1,22 +1,27 @@
 <?php include "static/commons/header.php"; ?>
+<?php
+$cars = array("https://api.tinyfox.dev/img?animal=fox","https://api.tinyfox.dev/img?animal=manul","https://api.tinyfox.dev/img?animal=serval","https://api.tinyfox.dev/img?animal=shiba","https://api.tinyfox.dev/img?animal=racc","https://api.tinyfox.dev/img?animal=dook","https://api.tinyfox.dev/img?animal=ott","https://api.tinyfox.dev/img?animal=woof","https://api.tinyfox.dev/img?animal=caracal","https://api.tinyfox.dev/img?animal=marten","https://api.tinyfox.dev/img?animal=wah");
+
+$animal_url = $cars[rand(0,count($cars))];
+
+function calculate_elapsed_years($start_date)
+{
+    $difference = time() - strtotime($start_date);
+    return floor($difference / (365 * 24 * 60 * 60));
+}
+$date = calculate_elapsed_years("2009-08-29");
+?>
 
   <img id=adolf src="/static/icons/twitter_better.svg">
   <link rel="stylesheet" href="/static/style/index.css">
   <div class="main">
     <div class="fox_div">
-      <img id=myImg alt="Cute foxes :3">
+      <img src="<?php echo $animal_url;?>" id=myImg alt="Cute foxes :3">
       <p>Images stolen from <a target="_blank" href="https://tinyfox.dev/image-list/">tinyfox.dev</a></p>
      </div>
     <div class="main_text">
       <h2>Hello!</h2>
-      <p>I am Juli a Finnish pansexual furry from '09(thats <?php
-      function calculate_elapsed_years($start_date)
-      {
-          $difference = time() - strtotime($start_date);
-          return floor($difference / (365 * 24 * 60 * 60));
-      }
-      echo calculate_elapsed_years("2009-08-29");
-      ?> years old). I go by Juli or Julimiro, any pronouns are fine but he/him is preferred.</p></p><br>
+      <p>I am Juli a Finnish pansexual gender unsure furry from '09(thats <?php echo $date?> years old). I go by Juli or Julimiro, any pronouns are fine.</p></p><br>
       <p>I have a few coding projects which are on my github and replit. I am also working on a game, for more info visit <a href="/projects/">projects</a>.</p><br>
       <p>My socials can be found below</p>
       <div class="socials">
@@ -34,21 +39,5 @@
 
   </div>
 </div>
-
-
-
-  <script>
-  const urls = ["https://api.tinyfox.dev/img?animal=fox","https://api.tinyfox.dev/img?animal=manul","https://api.tinyfox.dev/img?animal=serval","https://api.tinyfox.dev/img?animal=shiba","https://api.tinyfox.dev/img?animal=racc","https://api.tinyfox.dev/img?animal=dook","https://api.tinyfox.dev/img?animal=ott","https://api.tinyfox.dev/img?animal=woof","https://api.tinyfox.dev/img?animal=caracal","https://api.tinyfox.dev/img?animal=marten","https://api.tinyfox.dev/img?animal=wah"];
-  function change() {
-    console.log(urls.length)
-    console.log(Math.random()*urls.length)
-    var index = Math.round(Math.random()*urls.length);
-    console.log(index);
-    var url = urls[index];
-    console.log(url)
-    document.getElementById("myImg").src = url;
-  }
-</script>
-<body onload="change()"></body>
 
 <?php include "static/commons/footer.php"; ?>
