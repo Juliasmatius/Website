@@ -17,6 +17,7 @@
       <a target="_blank" href="https://www.linux.org/"><img src="/static/buttons/powered_linux.gif"></a>
       <a href='javascript:alert("Got ideas where I should point this to?")'><img src="/static/buttons/transrights.gif"></a>
       <a href='javascript:alert("Got ideas where I should point this to?")'><img src="/static/buttons/gayweb.gif"></a>
+      <a href='javascript:alert("Got ideas where I should point this to?")'><img src="/static/buttons/boykisser.gif"></a>
       <!-- <a target="_blank" href="https://ubuntu.com/"><img src="/static/buttons/ubuntu.gif"></a> -->
   </div>
 </div>

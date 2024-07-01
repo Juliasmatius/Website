@@ -2,7 +2,7 @@
 <?php
 $cars = array("https://api.tinyfox.dev/img?animal=fox","https://api.tinyfox.dev/img?animal=manul","https://api.tinyfox.dev/img?animal=serval","https://api.tinyfox.dev/img?animal=shiba","https://api.tinyfox.dev/img?animal=racc","https://api.tinyfox.dev/img?animal=dook","https://api.tinyfox.dev/img?animal=ott","https://api.tinyfox.dev/img?animal=woof","https://api.tinyfox.dev/img?animal=caracal","https://api.tinyfox.dev/img?animal=marten","https://api.tinyfox.dev/img?animal=wah");
 
-$animal_url = $cars[rand(0,count($cars))];
+$animal_url = $cars[rand(0,count($cars)-1)];
 
 function calculate_elapsed_years($start_date)
 {
