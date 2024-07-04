@@ -1,4 +1,3 @@
-<?php // include $_SERVER["DOCUMENT_ROOT"] . "/static/visitor_counter/counter.php";?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -23,10 +22,8 @@
         <a href="/">Home</a> |
         <a href="/posts/">Posts</a> |
         <a href="/projects/">Projects</a> |
-        <a href="/contacts/">Contact</a> |
-        <a href="/yons_crazybox/thesilly.html">idiots page :P</a>
+        <a href="/contacts/">Contact</a>
     </div>
-    <?php //echo "$count_string";?>
     <script src="/static/commons/oneko.js"></script>
     <?php include $_SERVER['DOCUMENT_ROOT'] . "/lastfm.php";?>
 

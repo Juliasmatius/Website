@@ -4,7 +4,7 @@
   <div class="footer_text"
     <p>&copy; <?php echo date(
       "Y"
-  ); ?> Juli & <a href="/yons_crazybox/thesilly.html">idiot</a>. All rights reserved.</p><br>
+  ); ?> Juli. All rights reserved.</p><br>
     <p>Utilizes <a href="https://github.com/adryd325/oneko.js">oneko.js</a></p>
                                                                             
 </div>
