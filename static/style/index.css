@@ -12,7 +12,7 @@
   border: 0px;
 }
 .main_text {
-  border: 2px solid white;
+  border: 2px solid pink;
   padding: 5px;
   max-width: 70%;
   width: fit-content;
@@ -31,8 +31,13 @@
   max-height: 100%;
   width: auto;
   height: auto;
+  border: 2px solid pink;
 }
 
 .socials {
-  color: rgb(255,255,255);
+  background-color: #FFF;
+  display: inline-block;
+  padding:5px;
+  padding-bottom: 0px;
+  border: 2px solid pink;
 }
